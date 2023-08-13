@@ -4,6 +4,11 @@ body, p {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    color: #000;
+    text-decoration: none;
+}
+
 .container {
     max-width: 1140px;
     margin: auto;
@@ -153,3 +158,29 @@ body, p {
     color: #4B5157;
 }
 
+/* Navbar line */
+
+.navbar {
+    background-color: #262D33;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding: 15px 20px;
+}
+
+.nav-item a {
+    font: 700 14px "Lato";
+    color: #fff;
+}
+
+.nav-item:hover {
+    background-color: #30363D;
+}
